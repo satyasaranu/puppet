@@ -19,4 +19,5 @@ class ntp::params {
                 default: { fail('OS $::operatingsystem is not currently supporte
 d') }
 	}
+	$package_name="ntp"
 }
