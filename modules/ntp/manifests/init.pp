@@ -1,5 +1,6 @@
 class ntp ($package = $ntp::params::package_name) inherits ntp::params  {
-	package { $package:
+	package { 'ntp':
+	name => $package,
 	ensure => present,
 	}
 
