@@ -28,7 +28,8 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-	include ntp
+#	include ntp
+	class { 'ntp': package => 'ntp', }
 }
 
 node "puppetmaster.saranu.com" {
