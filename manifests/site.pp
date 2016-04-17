@@ -29,7 +29,9 @@ node default {
   # Example:
   #   class { 'my_class': }
 #	include ntp
-	class { 'ntp': package => 'ntp', }
+#	class { 'ntp': package => 'ntp', }
+#	include stdlib
+#	class { java: stage => 'runtime' }
 }
 
 node "puppetmaster.saranu.com" {
