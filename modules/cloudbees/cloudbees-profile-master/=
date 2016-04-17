@@ -1,0 +1,7 @@
+[mNotice: Preparing to install into /etc/puppetlabs/code/environments/production/modules ...[0m
+[mNotice: Downloading from https://forgeapi.puppetlabs.com ...[0m
+[mNotice: Installing -- do not interrupt ...[0m
+/etc/puppetlabs/code/environments/production/modules
+└─┬ puppetlabs-apache ([0;36mv1.8.1[0m)
+  ├── puppetlabs-concat ([0;36mv2.1.0[0m)
+  └── puppetlabs-stdlib ([0;36mv4.11.0[0m)
